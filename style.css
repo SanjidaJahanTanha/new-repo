@@ -2,7 +2,7 @@ body{
     font-family: 'Domine', serif;
 }
 
-#orange-color{
+.orange-color{
           color: orange;
     }
    
@@ -26,7 +26,18 @@ body{
         padding: 10px 40px;
         border-radius: 5px;
     }
-    #mission{
-        font-size: 50px;
+    h3{
+        
+        color: blue;
+        text-align: center;
     }
+    .font_size{
+     font-size: 50px;
+    }
+   .bg_color{
+       text-decoration: none;
+       background-image: black;
+       padding-inline-end: 0%;
+
+   }
   
