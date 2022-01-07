@@ -6,19 +6,24 @@ body{
           color: orange;
     }
    
-    section{
+    .stay-focused{
         display: flex;
+    }
+    .border{
+        border-left: 5px solid red;
     }
     .change-width{
         width: 50%;
-        padding-right: 5%;
         text-align: justify;
             text-justify: inter-word;
+            margin-left: 10px;
+    }
+    .Needs-padding{
+        border:100px 10px 10px 10px;
     }
 
     .change-width img{
-        width: 80%;
-        
+         width: 70%;      
     }
     .link-button{
         text-decoration: none;
@@ -26,13 +31,11 @@ body{
         padding: 10px 40px;
         border-radius: 5px;
     }
-    h3{
-        
-        color: blue;
-        text-align: center;
-    }
+    
     .font_size{
      font-size: 50px;
+     color: blue;
+        text-align: center;
     }
    .bg_color{
        text-decoration: none;
@@ -40,4 +43,20 @@ body{
        padding-inline-end: 0%;
 
    }
+   .mission-vision-goal{
+       display: flex;
+   }
+   .bold-caption{
+       font-size: 30px;
+   }
+   .Corona_App{
+       text-align: center;
+   }
+       
+   .develop{
+    display: flex;
+       background-image: url(shapes/shape-1.png);
+       background-repeat: no-repeat;
+   }
+
   
