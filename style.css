@@ -58,5 +58,14 @@ body{
        background-image: url(shapes/shape-1.png);
        background-repeat: no-repeat;
    }
+   .Footer{
+       background-color: black;
+       color: white;
+       text-align: center;
+       padding: 5% 20%;
+       
+   }
 
-  
+   .corona-bg{
+       background-image: url(shapes/images.png);
+   }
