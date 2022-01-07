@@ -1,17 +1,19 @@
 body{
     font-family: 'Domine', serif;
+    margin:none;
 }
 
 .orange-color{
           color: orange;
     }
    
-    .stay-focused{
+    .flexible-container{
         display: flex;
     }
     .border{
         border-left: 5px solid red;
     }
+    
     .change-width{
         width: 50%;
         text-align: justify;
@@ -19,7 +21,7 @@ body{
             margin-left: 10px;
     }
     .Needs-padding{
-        border:100px 10px 10px 10px;
+        margin:100px 100px 50px;
     }
 
     .change-width img{
@@ -28,8 +30,10 @@ body{
     .link-button{
         text-decoration: none;
         background-image: linear-gradient(orange,red);
-        padding: 10px 40px;
+        padding:10px 40px;
         border-radius: 5px;
+        color: white;
+        text-align: center;
     }
     
     .font_size{
@@ -43,9 +47,7 @@ body{
        padding-inline-end: 0%;
 
    }
-   .mission-vision-goal{
-       display: flex;
-   }
+   
    .bold-caption{
        font-size: 30px;
    }
@@ -54,9 +56,21 @@ body{
    }
        
    .develop{
-    display: flex;
        background-image: url(shapes/shape-1.png);
        background-repeat: no-repeat;
+       background-size: 20%;
+       background-position: left middle;
+   }
+   .develop-pic{
+    width: 50%;
+    text-align: justify;
+        text-justify: inter-word;
+        margin-left: 10px;
+
+   }
+   .develop-pic img{
+        width:70%;
+        margin-left: 10%;
    }
    .Footer{
        background-color: black;
@@ -66,6 +80,56 @@ body{
        
    }
 
-   .corona-bg{
-       background-image: url(shapes/images.png);
+  
+   .mission{
+       background-color: rgb(219, 219, 253);
+       border-radius: 5%;
+       margin-right: 5%;
+       padding:5%;
+
    }
+   .vision{
+    background-color:rgb(252, 199, 208);
+    border-radius: 5%;
+    margin-right: 5%;
+    padding:5%;
+   }
+   .goal{
+    background-color:rgb(247, 203, 123);
+    border-radius: 5%;
+    padding:5%;
+   }
+  .width-new{
+    width: 50%;
+    text-align: justify;
+        text-justify: inter-word;
+    }
+    .width-new img{
+        width: 60%;
+        margin-left: 31%;
+        margin-bottom:5%;
+    }
+    .Global{
+        background-image: url(shapes/shape-1.png);
+      background-repeat: no-repeat;
+        background-position:bottom right;
+        background-size: 10%;
+    } 
+    h4{
+        font-size: 20px;
+        color:seagreen;
+    }
+    .go-corona{
+        display: flex;
+      margin-bottom: 4%;
+    }
+    .shadow-border{
+        width: 30%;
+        margin-right: 10%;
+        box-shadow: 10px 10px 20px gray;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    #centralize{
+        text-align: center;
+    }
